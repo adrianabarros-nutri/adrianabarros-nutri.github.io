@@ -1,0 +1,22 @@
+PACOTE LIMPO V21 - ADRIANA BARROS
+
+Este pacote foi reconstruído a partir da versão original íntegra.
+As imagens Base64 do formulário foram preservadas sem alteração.
+
+COMO SUBSTITUIR NO GITHUB:
+1. Abra o repositório adrianabarros-nutri/adrianabarros-nutri.github.io
+2. Apague os arquivos atuais da raiz do repositório.
+3. Faça upload dos arquivos deste pacote, descompactados:
+   index.html
+   manifest.webmanifest
+   service-worker.js
+   icon-192.png
+   icon-512.png
+   .nojekyll
+4. Confirme o commit na branch main.
+5. Aguarde alguns minutos.
+6. Teste primeiro em uma aba anônima/privada:
+   https://adrianabarros-nutri.github.io/
+7. Depois abra normalmente e atualize a página.
+
+O aviso de privacidade está incluído e o cache foi atualizado para v21.

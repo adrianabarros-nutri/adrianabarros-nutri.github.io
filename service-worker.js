@@ -1,4 +1,4 @@
-const CACHE_NAME = 'adriana-barros-avaliacao-v19';
+const CACHE_NAME = 'adriana-barros-avaliacao-v21';
 const APP_SHELL = [
   './',
   './index.html',
@@ -35,15 +35,11 @@ self.addEventListener('fetch', event => {
       fetch(event.request)
         .then(response => {
           const copy = response.clone();
-          caches.open(CACHE_NAME).then(cache => {
-            cache.put('./index.html', copy);
-          });
+          caches.open(CACHE_NAME).then(cache => cache.put('./index.html', copy));
           return response;
         })
         .catch(() =>
-          caches.match('./index.html').then(cached =>
-            cached || caches.match('./')
-          )
+          caches.match('./index.html').then(cached => cached || caches.match('./'))
         )
     );
     return;
@@ -51,19 +47,16 @@ self.addEventListener('fetch', event => {
 
   event.respondWith(
     caches.match(event.request).then(cached => {
-      const networkFetch = fetch(event.request)
+      const network = fetch(event.request)
         .then(response => {
           if (response && response.ok) {
             const copy = response.clone();
-            caches.open(CACHE_NAME).then(cache => {
-              cache.put(event.request, copy);
-            });
+            caches.open(CACHE_NAME).then(cache => cache.put(event.request, copy));
           }
           return response;
         })
         .catch(() => cached);
-
-      return cached || networkFetch;
+      return cached || network;
     })
   );
 });
