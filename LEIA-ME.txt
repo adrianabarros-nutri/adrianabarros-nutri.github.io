@@ -1,0 +1,39 @@
+# Adriana Barros - PWA v18
+
+## Arquivos
+- index.html
+- manifest.webmanifest
+- service-worker.js
+- icon-192.png
+- icon-512.png
+
+## Publicação
+Publique TODOS os arquivos juntos na mesma pasta em uma hospedagem HTTPS.
+Exemplos: GitHub Pages, Netlify, Cloudflare Pages, Vercel ou hospedagem própria.
+
+Depois de publicado, envie apenas o link HTTPS aos pacientes.
+
+## Funcionamento offline
+Na primeira abertura com internet, o navegador armazena os arquivos do aplicativo.
+Depois disso, o formulário pode continuar abrindo offline naquele aparelho.
+
+## iPhone/iPad
+Abra o link no Safari. Para instalar:
+Compartilhar > Adicionar à Tela de Início.
+
+O compartilhamento de PDF usa o menu nativo do sistema quando o navegador permitir.
+Caso o compartilhamento direto não esteja disponível, o botão "Salvar PDF" continua funcionando como fallback.
+
+## Android
+Abra no Chrome. Quando elegível, o botão "Instalar no aparelho" pode aparecer.
+Também é possível instalar pelo menu do Chrome.
+
+## Windows
+Abra no Edge ou Chrome. A PWA pode ser instalada pelo navegador.
+O botão de compartilhar usa o compartilhamento do sistema quando disponível; caso contrário, salva o PDF.
+
+## Privacidade
+As fotos e os dados do paciente são processados no próprio navegador. O pacote não envia os dados para um servidor por conta própria.
+
+## Titularidade
+© 2026 Adriana Ribeiro Barros. Todos os direitos reservados.

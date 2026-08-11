@@ -1,0 +1,22 @@
+GUIA RÁPIDO — GITHUB PAGES
+
+1) Entre em github.com e faça login.
+2) Clique em "New repository".
+3) Nome sugerido: avaliacao-adriana-barros
+4) Escolha Public.
+5) Crie o repositório vazio.
+6) Clique em "uploading an existing file".
+7) Arraste TODOS os arquivos e pastas deste pacote para a página.
+8) Clique em "Commit changes".
+
+Depois:
+9) Settings > Pages.
+10) Em "Build and deployment":
+    - Source: Deploy from a branch
+    - Branch: main
+    - Folder: /(root)
+11) Save.
+
+Após alguns minutos, o GitHub mostrará o link HTTPS público.
+
+Envie esse link pelo WhatsApp aos pacientes.
