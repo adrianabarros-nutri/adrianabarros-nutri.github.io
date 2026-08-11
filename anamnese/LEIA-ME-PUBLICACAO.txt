@@ -1,0 +1,21 @@
+ANAMNESE NUTRICIONAL - ADRIANA BARROS - VERSÃO FINAL V5
+
+Publicação no GitHub Pages:
+1. No repositório adrianabarros-nutri/adrianabarros-nutri.github.io, crie/abra a pasta:
+   anamnese/
+2. Envie TODOS os arquivos deste pacote para dentro de /anamnese/.
+3. Confirme o commit na branch main.
+4. O endereço será:
+   https://adrianabarros-nutri.github.io/anamnese/
+
+PDF final:
+- cada bloco principal começa em uma nova página;
+- blocos longos continuam em páginas seguintes;
+- logo completa somente na primeira página;
+- cabeçalho discreto nas páginas seguintes;
+- tipografia maior e melhor espaçamento;
+- rodapé com direitos autorais e paginação;
+- mesmo PDF usado em Salvar PDF e Gerar PDF e compartilhar.
+
+Privacidade:
+As respostas são processadas localmente no navegador e não são enviadas ao GitHub pelo código do formulário.

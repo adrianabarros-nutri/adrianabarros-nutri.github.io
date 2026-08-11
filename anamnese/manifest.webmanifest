@@ -1,0 +1,22 @@
+{
+  "name": "Ficha de Anamnese Nutricional - Adriana Barros",
+  "short_name": "Anamnese Adriana",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7f0e7",
+  "theme_color": "#f7f0e7",
+  "description": "Ficha de Anamnese Nutricional. Processamento local no dispositivo.",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
